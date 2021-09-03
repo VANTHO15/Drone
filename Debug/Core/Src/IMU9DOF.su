@@ -1,0 +1,26 @@
+cmath:106:3:constexpr float std::asin(float)	16	static
+cmath:144:3:constexpr float std::atan2(float, float)	16	static
+dwt_stm32_delay.h:25:22:void DWT_Delay_us(uint32_t)	24	static
+IMU9DOF.cpp:75:6:void IMU9DOF::VerticalAccelerationCalculations()	16	static
+IMU9DOF.cpp:105:1:IMU9DOF::IMU9DOF(I2C_HandleTypeDef*, uint8_t, uint32_t)	24	static
+IMU9DOF.cpp:112:16:IMU9DOF_Result IMU9DOF::ReadCompass()	32	static
+IMU9DOF.cpp:153:16:IMU9DOF_Result IMU9DOF::IsReadyToInterfaceMPU6050()	40	static
+IMU9DOF.cpp:186:16:IMU9DOF_Result IMU9DOF::IsReadyToInterfaceHMC5883L()	40	static
+IMU9DOF.cpp:213:16:IMU9DOF_Result IMU9DOF::IsReadyToInterface()	40	static
+IMU9DOF.cpp:267:16:IMU9DOF_Result IMU9DOF::ReadRawAllParameter()	56	static
+IMU9DOF.cpp:298:19:HAL_StatusTypeDef IMU9DOF::SetAccelSensitivityMPU6050(MPU6050_Accelerometer)	40	static
+IMU9DOF.cpp:329:19:HAL_StatusTypeDef IMU9DOF::SetGyroSensitivityMPU6050(MPU6050_Gyroscope)	40	static
+IMU9DOF.cpp:360:19:HAL_StatusTypeDef IMU9DOF::SetupGyro()	40	static
+IMU9DOF.cpp:382:19:HAL_StatusTypeDef IMU9DOF::SetupCompass()	40	static
+IMU9DOF.cpp:428:19:HAL_StatusTypeDef IMU9DOF::SetupAutomaticReadCompass()	40	static
+IMU9DOF.cpp:454:19:HAL_StatusTypeDef IMU9DOF::Init()	16	static
+IMU9DOF.cpp:486:6:void IMU9DOF::ReadGyroAccel()	16	static
+IMU9DOF.cpp:507:19:HAL_StatusTypeDef IMU9DOF::SetMagnSensitivityHMC5883L(HMC5883l_range)	40	static
+IMU9DOF.cpp:533:6:void IMU9DOF::CalibCompass()	16	static
+IMU9DOF.cpp:574:6:void IMU9DOF::CalibLevel(uint8_t*)	32	static
+IMU9DOF.cpp:629:6:void IMU9DOF::CalibGyro()	16	static
+IMU9DOF.cpp:654:6:void IMU9DOF::ReadAngleRPY()	32	static
+IMU9DOF.cpp:687:6:void IMU9DOF::CalculateGyroInput()	24	static
+IMU9DOF.cpp:695:6:void IMU9DOF::setLevelAdjust(uint8_t, uint8_t)	16	static
+IMU9DOF.cpp:701:7:float IMU9DOF::CourseDeviation(float, float)	40	static
+cmath:475:5:constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::sqrt(_Tp) [with _Tp = int]	24	static

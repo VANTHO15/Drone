@@ -1,0 +1,23 @@
+std_abs.h:74:3:constexpr float std::abs(float)	16	static
+barometer.cpp:13:1:Barometer::Barometer(I2C_HandleTypeDef*)	16	static
+barometer.cpp:17:19:HAL_StatusTypeDef Barometer::Reset()	32	static
+barometer.cpp:28:19:HAL_StatusTypeDef Barometer::ReadProm()	32	static
+barometer.cpp:46:19:HAL_StatusTypeDef Barometer::Init()	16	static
+barometer.cpp:58:6:void Barometer::SetGroundPressure()	16	static
+barometer.cpp:62:10:uint32_t Barometer::GetDataFromPreviousRequest()	32	static
+barometer.cpp:74:18:BAROMETER_Result Barometer::IsReadyToInterface()	16	static
+barometer.cpp:85:10:uint32_t Barometer::GetAverageTemperature()	24	static
+barometer.cpp:99:6:void Barometer::RequestGetTemperatureData()	32	static
+barometer.cpp:105:6:void Barometer::RequestGetPressureData()	32	static
+barometer.cpp:111:9:int64_t Barometer::CompensatePressure()	56	static
+barometer.cpp:145:7:float Barometer::GetAveragePressure()	16	static
+barometer.cpp:160:7:float Barometer::UseComplementaryFilter()	24	static
+barometer.cpp:172:6:void Barometer::CalculateLongtermChange()	16	static
+barometer.cpp:191:7:float Barometer::GetPidOutputAltitude()	16	static
+barometer.cpp:195:7:float Barometer::GetActualPressure()	16	static
+barometer.cpp:200:6:void Barometer::Set_PID_altitude_setpoint(float)	16	static
+barometer.cpp:205:9:int16_t Barometer::GetManualThrottle()	16	static
+barometer.cpp:210:6:void Barometer::CalculateAltitudePID(int16_t)	32	static
+barometer.cpp:260:6:void Barometer::ResetValuesOfPID()	16	static
+barometer.cpp:269:6:void Barometer::SetKgainPID(float, float, float, int16_t)	32	static
+barometer.cpp:276:6:void Barometer::ReadAndCalculatePIDBarometer(uint8_t, uint8_t, uint16_t)	24	static
